@@ -63,7 +63,7 @@ export default function Product({ product, basket, setBasket }) {
         <img src={product.img} />
         <div className="productsInfo">
           <p>{product.name}</p>
-          <p>$ {product.price}</p>
+          <p>${product.price}</p>
         </div>
       </div>
     </div>
